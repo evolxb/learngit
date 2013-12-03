@@ -1,0 +1,6 @@
+git init	--初始化一个git仓库
+
+添加文件到git:
+    1. git add		--添加文件到git仓库，可以多次添加
+    2. git commit	--提交添加操作
+
