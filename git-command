@@ -13,3 +13,13 @@ git init	--初始化一个git仓库
 
 查看git仓库状态:
     1. git status	--查看工作区的状态
+
+查看提交历史：
+    1. git log		--查看提交历史
+
+查看命令历史:
+    1. git reflog 	--查看命令历史
+
+版本还原:
+    1. git reset --hard commit_id	--还原为commit_id的版本
+
