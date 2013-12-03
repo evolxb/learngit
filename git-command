@@ -31,3 +31,7 @@ git init	--初始化一个git仓库
     2. git checktou --file	--丢弃工作区修改
 
 已提交到版本库，可以git reset --hard commit_id还原版本库，从而丢弃修改
+
+删除文件：
+    1. git rm file	--删除文件
+
