@@ -4,3 +4,12 @@ git init	--初始化一个git仓库
     1. git add		--添加文件到git仓库，可以多次添加
     2. git commit	--提交添加操作
 
+修改文件之后再提交：
+   1. git add 		--添加修改后的文件到git仓库
+   2. git commit 	--提交修改
+
+查看修改：
+    1. 	git diff	--查看具体修改的内容
+
+查看git仓库状态:
+    1. git status	--查看工作区的状态
