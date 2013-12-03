@@ -23,3 +23,11 @@ git init	--初始化一个git仓库
 版本还原:
     1. git reset --hard commit_id	--还原为commit_id的版本
 
+丢弃工作区的修改：
+    1. git checkout -- file	--丢弃工作区的修改
+
+丢弃赞存区的修改：
+    1. git reset HEAD file	--暂存区修改被丢弃，但工作区还没有
+    2. git checktou --file	--丢弃工作区修改
+
+已提交到版本库，可以git reset --hard commit_id还原版本库，从而丢弃修改
