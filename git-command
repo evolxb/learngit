@@ -54,3 +54,8 @@ git init	--初始化一个git仓库
     git merge name 	--合并某分支到当前分支
     git branch -d name	--删除分支
 
+创建git仓库有2种方法，
+    1. 在本地目录里面使用 git init 方法
+    2. 使用 git clone 克隆远程仓库
+安装 git 之后还要使用 git config --global 命令配置
+本地仓库还要 使用 git remote add origin repo 关联远程仓库
